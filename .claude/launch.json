@@ -6,6 +6,12 @@
       "runtimeExecutable": "python3",
       "runtimeArgs": ["-m", "http.server", "3456", "--directory", "seomachine-app"],
       "port": 3456
+    },
+    {
+      "name": "seomachine-site",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "3457", "--directory", "seomachine-site"],
+      "port": 3457
     }
   ]
 }
